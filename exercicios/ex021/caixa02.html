@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style> /* abrir codigo css*/
+        body { /*corpo do site*/
+            font-family: Arial, Helvetica, sans-serif; /*tipo da fonte, caso nao funcione arial vai para helvetica e assim por diante.*/
+            background-color: dimgray; /*cor do fundo do corpo*/
+            margin: 0px; /*tirar margem*/
+        }
+
+        header { /*topo do site*/
+            background-color: white; /*cor do fundo da header*/
+            padding: 10px; /*para criar um espaço e engordar a caixa*/
+            margin: 10px; /*criar uma pequena margem*/
+            text-shadow: 1px 1px 4px rgb(126, 126, 126);
+            box-shadow: 8px 8px 15px rgb(54, 54, 54);
+            border-radius: 20px 0px;
+        }
+
+        nav { /*menu de navegação*/
+            background-color: rgb(104, 104, 104); /*cor do fundo do menu de navegação*/
+            padding: 3px; /*espaçamento para engordar a caixa*/
+            box-shadow: 3px 3px 7px 1px grey;
+        }
+
+        nav > a { /*"filho" que é uma ancora do menu de navegação*/
+            text-decoration: none; /*tirar o underline na decoração de texo*/
+            color: white; /*cor da ancora*/
+            font-weight: bold; /*o "peso" da fonte, pra deixar ela mais gordinha*/
+            margin-right: 30px; /*criar uma margem para a direita*/
+        }
+
+        nav > a:hover { /*a âncora só que com hover para passar o mouse e acontecer*/
+            text-decoration: underline; /*adicionar o underline quando passar o mouse*/
+        }
+
+        main { /*texto principal*/
+            background-color: white; /*cor do fundo da caixa*/
+            padding: 10px; /*espaçamento de caixa pra engordar*/
+            margin: 10px; /*margem espaçamento*/
+            border-radius: 20px 0px;
+            box-shadow: 8px 8px 15px rgb(54, 54, 54);
+        }
+
+        article { /*artigos do texto*/
+            background-color: lightgray; /*cor do fundo*/ 
+            padding: 5px; /*espaçamento pra caixa ficar maior*/
+        }
+
+        article > aside { /*filho do artigo, classe aside*/
+            background-color: rgb(165, 165, 165); /*cor do fundo*/
+        }
+
+        footer { /*rodapé do site*/
+            background-color: black; /*cor do fundo*/ 
+            color: white; /*cor do footer*/
+            text-align: center; /*alinhar texto no centro*/
+            padding: 1px; /*criar pequeno espaçamento*/
+            margin: 0px; /*tirar a margem*/
+        }
+
+        footer > p { /*filho do footer, parágrafo*/
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Website</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit suscipit, ducimus, quibusdam dolore explicabo facilis illum accusamus magnam, officiis optio rem dolorum nihil eaque fugit et in consequatur dolor incidunt?</p>
+                <aside>
+                    <p>Artigo escrito por Jaguatiriquense</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>Desenvolvido por cht</p>
+    </footer>
+</body>
+</html>
