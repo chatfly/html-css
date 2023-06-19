@@ -1,4 +1,4 @@
-# html-css
- Curso HTML5, CSS3.
+# Projetos Feitos em HTML-CSS-js
+ Confira os novos exercícios e testes que ando fazendo
 
-<a href="exercicios/ex022/fundo001.html">Acesse meu último Exercício!</a>
+<a href="exercicios/ex022/teste.html">Acesse meu último mini-projeto/teste.</a>
