@@ -2,6 +2,23 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
+/*
+    Organização e Primeiros Passos.
+        .Charset para aceitar acentuação
+        .Importei as fontes utilizadas
+        .Criei variáveis com as fontes
+        .Com o * consegui tirar a margem, o padding, e determinei o tamanho das fontes
+            (Isso faz com que alinhe tudo de maneira do "0")
+        .No html, body determinei o tamanho mínimo com vh. Para criar também responsividade
+
+    Pontos importantes.
+        .Utilizei sempre pra determinar o tamanho das fontes, o "vh"
+            (Consigo criar tamanha responsividade para celulares, pois vh determina o tamanho da fonte de acordo com a largura da tela)
+        .
+*/
+
+
+
 :root {
     --fonte1: Verdana, Genea, Tahoma, sans-serif;
     --fonte2: 'Passion One', cursive;
@@ -41,7 +58,7 @@ header > p {
 header a, footer a {
     color: white;
     text-decoration: none;
-    font-weight: bolder;
+    font-weight: bolder;         /*Importante*/
 }
 
 header a:hover, footer a:hover {
@@ -49,10 +66,10 @@ header a:hover, footer a:hover {
 }
 
 section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    line-height: 2em;
-    padding-left: 30px;
+    padding-top: 10vh;          /*Importante*/
+    padding-bottom: 10vh;          /*Importante*/
+    line-height: 2em;         /*Importante*/
+    padding-left: 10vh;          /*Importante*/
     font-family: var(--fonte3);
     font-size: 3.5vw;
 }
@@ -69,7 +86,7 @@ section.normal {
 section.imagem {
     background-color: rgb(48, 48, 48);
     color: white;
-    box-shadow: inset 20px 20px 40px 5px rgba(0, 0, 0, 0.521);
+    box-shadow: inset 20px 20px 40px 5px rgba(0, 0, 0, 0.521);         /*Importante*/
     background-attachment: fixed;
 }
 
@@ -90,7 +107,7 @@ section#img01 {
 section#img02 {
     background-image: url(/imagens/background002.jpg);
     background-position: right center;
-    background-size: cover;
+    background-size: cover;         /*Importante*/
 }
 
 footer {
